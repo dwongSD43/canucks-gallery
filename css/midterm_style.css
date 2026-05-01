@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eab676;
+
+}
+
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#wrapper2 {
+    margin: 0 auto;
+}
+
+header {
+    margin:auto;
+    text-align: center;
+    /* padding-top: 20px; */
+    background-image: url("../images/header_bg.png");
+    /*add background colour. When the width is small, white space is not showing.*/
+    background-color: #abdbe3;
+    /*only want background image to repeat in x direction*/
+    background-repeat:repeat-x;
+}
+
+h1 {
+
+    padding-top: 20px; 
+}
+
+/*desktop/laptop navigation*/
+nav {
+    clear:none;
+    overflow: hidden;
+    background-color: #154c79;
+}
+
+nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/*change colour on hover*/
+nav a:hover {
+    background-color: #76b5c5;
+    color: black;
+}
+
+/*change colour of link on current/active page*/
+nav a.active {
+    background-color: #000;
+    color: white;
+}
+
+h2 {     
+    color: #063970;
+}
+
+/* add space between lines to improve readability */
+p {
+    line-height:1.5em;
+}
+
+.flex-container {
+
+    display: flex;
+    flex-wrap: wrap;
+justify-content: center;
+}
+
+/*
+class selector for the images and text for each item in the gallery
+*/
+.gallerybox {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #154c79;
+    margin: 5px;
+    padding: 5px;
+    width: 320px;
+
+    text-align: center;
+    overflow: auto;
+
+}
+
+.aboutbox {
+    margin: 5px;
+    padding: 5px;
+    width: 410px;
+
+    overflow: auto;
+}
+
+.resourcebox {
+    margin-right:50px;
+    width: 450px;
+    overflow: auto;
+}
+/*
+applied to the text when citing my source
+*/
+.source {
+    font-size: 0.8rem;
+}
+
+.img_logo {
+    max-width: 100%;
+    height: auto;
+}
+
+main {
+    padding: 16px;
+    background-color: #abdbe3;
+    overflow: auto;
+}
+
+aside {
+    padding: 16px;
+    background-color: #abdbe3;
+    overflow: auto;
+}
+/*
+used a ul in the footer to list my resources for the about.html page
+*/
+ul {
+    list-style-type: none;
+}
+
+footer {
+    font-size: 0.8rem;
+    /* background-image: url("../images/footer_bg.png"); */
+    background-color: #76b5c5;
+    padding: 16px;
+
+}
+
+dl {
+    line-height: 1.5em;
+}
+/*added a class selector for an introduction paragraph*/
+.intro {
+
+    display: block;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #154c79;
+    display: none;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #76b5c5;
+    color: black;
+}
+
+/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+
+    /*Display topnav (mobile nav) and hide the regular horizontal navigation*/
+    .topnav {
+        display: block;
+    }
+
+    .wide_menu {
+        display: none;
+    }
+
+    /*hide the intro, shorten the description under each image, change the gallerybox height*/
+    .intro {
+        display: none;
+    }
+
+    .captain_descrip {
+        display: none;
+    }
+
+    .gallerybox {
+        height: 625px;
+    }
+
+
+}

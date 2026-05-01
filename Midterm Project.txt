@@ -1,0 +1,54 @@
+Contrast Checker
+https://webaim.org/resources/contrastchecker/
+https://contrast-ratio.com/#%23141010-on-%23ecb6b6
+
+
+Contrast article
+https://devstephen.medium.com/text-contrast-for-web-pages-d685636c0749
+
+Wave - web accessibility evalutaiton tool
+evaluates a tool for accessibility
+https://wave.webaim.org/report#/https://www.apple.com/
+
+What's wrong with this website from a design point of view
+https://www.arngren.net/
+no repetition
+
+Design article
+https://vwo.com/blog/crap-design-principles/
+
+alignment
+https://tympanus.net/codrops/2012/06/19/line-that-up-proper-alignment-in-web-design/
+
+Readability
+https://designshack.net/articles/mobile/the-importance-of-designing-for-readability/
+https://www.intechnic.com/blog/best-practices-to-improve-text-readability-for-optimal-user-experience/
+
+readability tool
+https://www.webfx.com/tools/read-able/
+
+Line-height 1.5
+Added subheading to improve readability - faster scanning
+
+Load Testing
+https://tools.pingdom.com/
+
+
+Resources used
+
+
+
+Header background using PS
+from past knowledge
+using gradients - https://www.webfx.com/blog/web-design/modern-web-design/
+
+Johnny Canuck log0
+https://www.sportslogos.net/logos/view/fqsaneuuzbmiftlbsyuv5htof/vancouver_canucks/2009/alternate_logo
+
+resizing the logo
+https://www.w3schools.com/css/css_rwd_images.asp
+
+
+
+Flex box container
+https://www.w3schools.com/css/css3_flexbox_container.asp
